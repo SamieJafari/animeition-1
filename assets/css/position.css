@@ -1,0 +1,67 @@
+.position-static{
+    margin-top: 10rem;
+    position: static;
+    top : 1000rem;
+    left: 1000rem;
+    right: 1000rem;
+    bottom: 1000rem;
+}
+.position-relative{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: yellow;
+}
+.position-absolute{
+    position: absolute;
+    width: 50px;
+    height:50px;
+}
+.position-stiky{
+    position: sticky;
+    top: 2rem;
+    width: 100%;
+    background: purple;
+}
+.start-1{
+    background: pink;
+    border: 1px solid black;
+    bottom: -2rem;
+    right: -2rem;
+    z-index: 1;
+}
+.start-2{
+    background:red ;
+    border: 1px solid black;
+    bottom: -4rem;
+    right: -4rem;
+    z-index: 2;
+}
+.start-3{
+    background: aqua;
+    border: 1px solid black;
+    bottom: -6rem ;
+    right: -6rem;
+    z-index: 3;
+}
+.start-4{
+    background: blue ;
+    border: 1px solid black;
+    bottom: -8rem ;
+    right: -8rem;
+    z-index: 4;
+}
+.start-5{
+    background: magenta;
+    border: 1px solid black;
+    bottom: -10rem ;
+    right: -10rem;
+    z-index: 5;
+}
+.start-6{
+    background: green;
+    border: 1px solid black;
+    bottom: -12rem;
+    right: -12rem;
+    z-index: 6;
+}
